@@ -1,0 +1,20 @@
+# Core dependencies
+gtts
+pygame
+streamlit
+speechrecognition
+googletrans==3.1.0a0
+
+# MLOps dependencies
+mlflow>=2.8.0
+pydantic>=2.0.0
+
+# Development & Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.1.0
+
+# Monitoring (optional)
+prometheus-client>=0.18.0
+
