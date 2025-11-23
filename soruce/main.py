@@ -31,9 +31,6 @@ def text_to_voice(text_data, to_language):
     os.remove("cache_file.mp3")
 
 def main_process(output_placeholder, from_language, to_language):
-    
-    global isTranslateOn
-    
     while isTranslateOn:
 
         rec = sr.Recognizer()
