@@ -1,0 +1,11 @@
+# Core dependencies for language translator
+gtts
+pygame
+streamlit
+speechrecognition
+googletrans==3.1.0a0
+
+# MLOps dependencies (for main_with_mlops.py)
+mlflow>=2.8.0
+pydantic>=2.0.0
+
